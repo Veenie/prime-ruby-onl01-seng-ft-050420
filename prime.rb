@@ -4,7 +4,7 @@ def is_prime?(*nums)
     i = 2
       while i < num
         if num % i == 0
-          puts ""
+          puts "#{num} is not a prime"
         else
           puts "#{num} is a prime"
         end
