@@ -1,2 +1,2 @@
 # Add  code here!
-prime(Integer)
+def prime?(Integer)
