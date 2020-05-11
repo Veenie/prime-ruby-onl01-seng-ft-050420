@@ -1,1 +1,14 @@
 # Add  code here!
+def is_prime?(*nums)
+    nums.each do |num|
+    i = 2
+      while i < num
+        if num % i == 0
+          puts ""
+        else
+          puts "#{num} is a prime"
+        end
+        i += 1
+      end
+   end
+end
